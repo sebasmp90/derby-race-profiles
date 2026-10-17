@@ -141,19 +141,6 @@ No. La distancia al centroide solo dice que el perfil es raro, no por qué. Otra
 | [`notebooks/03-gold/05_gold_race_dynamics.py`](notebooks/03-gold/05_gold_race_dynamics.py) | Parte 1: tabla Gold nueva, validación y verificación |
 | [`notebooks/04-ml/04_cluster_race_profiles.py`](notebooks/04-ml/04_cluster_race_profiles.py) | Parte 2: clustering, elección de `k`, anomalías, MLflow y respuestas |
 | [`notebooks_html/`](notebooks_html/) | Los mismos notebooks **con sus resultados**. Descárgalos y ábrelos en el navegador |
-| [`evidencias/`](evidencias/) | Capturas de los resultados en Databricks |
-
-### Evidencias
-
-| Captura | Qué demuestra |
-|---|---|
-| [`gold_validacion.png`](evidencias/gold_validacion.png) | Validación de la tabla Gold: llave única, sin nulos y velocidades plausibles |
-| [`codo_silhouette.png`](evidencias/codo_silhouette.png) | Método del codo y silhouette para k = 2…8 |
-| [`perfiles_clusters.png`](evidencias/perfiles_clusters.png) | Centroides y perfil de cada cluster |
-| [`top3_por_cluster.png`](evidencias/top3_por_cluster.png) | % top 3 y % ganadores por estilo |
-| [`anomalias_top5.png`](evidencias/anomalias_top5.png) | Las 5 anomalías más fuertes con su diagnóstico |
-| [`mlflow_run.png`](evidencias/mlflow_run.png) | Run de MLflow con parámetros, métricas y modelo |
-| [`catalog_tablas.png`](evidencias/catalog_tablas.png) | Las tablas `gold_derby_race_dynamics` y `gold_derby_race_profiles` en Unity Catalog |
 
 ---
 
